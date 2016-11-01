@@ -10,7 +10,6 @@ init_env() {
 }
 
 
-init_env >/tmp/init_env.log 2>&1 &
 
 ttyd \
     --reconnect "${RECONNECT}" \
